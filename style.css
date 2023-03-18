@@ -1,0 +1,19 @@
+ .container{
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto; 
+   background-color: aqua;
+ }
+ .box{
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns:repeat(4,1fr);
+   grid-template-rows: repeat(3,1fr);
+   grid-auto-flow: column;
+   justify-content: center;  
+ }
+ .div{
+   width: 150px;
+   height: 150px;
+    background-color: black;
+ }
